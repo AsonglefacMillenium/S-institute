@@ -1,0 +1,19 @@
+.mastersProgramCard{
+    @apply h-96 px-8 mb-10   lg:w-80 bg-primary-grey rounded-3xl p-10 shadow-md inline-block flex flex-col justify-between;
+}
+
+.mastersProgramCard h3{
+    @apply text-2xl mb-10 text-primary-red font-bold  flex-col ;
+}
+
+.programType{
+    @apply bg-primary-dark text-white w-fit px-1;
+}
+
+.programCategory{
+    @apply flex lg:justify-start items-center;
+}
+
+.programLocation{
+    @apply flex lg:justify-start items-center;
+}

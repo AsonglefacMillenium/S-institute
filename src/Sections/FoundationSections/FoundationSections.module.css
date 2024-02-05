@@ -1,0 +1,44 @@
+/*styling the foundation intro */
+
+.foundationIntro{
+    @apply w-full h-fit my-32 bg-white flex flex-col lg:flex-row justify-center items-center;
+}
+.foundationIntroMain{
+    @apply w-11/12 lg:w-2/4 lg:ml-20 m-auto mt-10;
+}
+
+.foundationIntroMain h1{
+    @apply text-4xl lg:text-6xl text-primary-dark font-bold;
+}
+.foundationIntroMain p{
+    @apply text-primary-dark text-lg mt-10;
+}
+
+
+.foundationGateway{
+    @apply w-full my-20;
+}
+.gatewayMain{
+    @apply w-2/4 ml-20;
+}
+.gatewayMain h3{
+    @apply text-2xl text-primary-dark font-bold mb-5;
+}
+
+.gatewayMain p{
+    @apply text-lg text-primary-dark mb-5;
+}
+.gatewayMain ul li{
+    @apply mb-10;
+}
+.gatewayMain ul li{
+    @apply text-lg flex flex-row items-center;
+}
+
+.gatewayMain ul li .gatewayIcon{
+    @apply text-primary-red mr-2 font-bold;
+}
+
+.gatewayMain ul li span{
+    @apply font-bold;
+}

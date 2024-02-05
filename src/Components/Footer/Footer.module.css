@@ -1,0 +1,59 @@
+.footer {
+  @apply w-screen h-fit py-20 bg-primary-grey flex justify-center;
+}
+
+.footerwrapper {
+  @apply flex w-10/12 flex-col lg:flex-row justify-around;
+}
+
+.footerwrapper ul {
+  @apply w-fit lg:mt-0 mt-10;
+}
+
+.footerwrapper ul li {
+  @apply text-xl mb-5;
+}
+
+.footerStudies {
+  @apply text-2xl font-bold;
+}
+
+.footerContacthead {
+  @apply text-2xl font-bold;
+}
+
+.footerContactBox {
+  @apply flex flex-row  items-center w-full;
+}
+
+.footerIcon {
+  @apply mr-5;
+}
+
+.footerBottom {
+  @apply bg-primary-red h-fit flex flex-col lg:flex-row lg:items-center lg:justify-between;
+  padding: 10px 90px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.footerLogo {
+  @apply w-1/3 flex flex-row justify-between mb-10 lg:mb-0;
+}
+.footerLogo img {
+}
+
+.footerLogo h1 {
+  @apply text-3xl text-white ml-5  self-center font-bold;
+}
+
+.footerSocial {
+  @apply flex flex-row  w-1/3 text-2xl text-white;
+  justify-content: center !important;
+}
+
+.footerSocial a {
+  @apply hover:scale-110 mr-5;
+}

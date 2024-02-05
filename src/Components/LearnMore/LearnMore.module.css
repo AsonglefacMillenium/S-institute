@@ -1,0 +1,26 @@
+.learnMore{
+    @apply flex flex-col mb-10 lg:mb-0 p-10 h-fit w-3/4 lg:w-1/2 lg:h-96 border-2 border-primary-grey;
+}
+
+.learnMoreMargin{
+    @apply lg:mr-10;
+}
+.learnMore h3{
+    @apply text-primary-red font-bold mb-5;
+}
+
+.learnMore h1{
+    @apply text-4xl font-bold mb-5;
+}
+
+.learnMoreLinks{
+    @apply h-3/4 flex flex-col ;
+}
+
+.learnMoreLinks a{
+    @apply text-primary-red font-bold mb-3  flex  w-full lg:w-3/4 items-center;
+
+}
+.moreIcons{
+    @apply text-3xl ml-2;
+}

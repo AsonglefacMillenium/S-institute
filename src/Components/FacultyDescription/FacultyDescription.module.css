@@ -1,0 +1,19 @@
+.facultyDescription{
+    @apply w-full flex lg:flex-row md:flex-row flex-col justify-center m-auto my-20;
+}
+
+.mainText{
+    @apply w-[40%] lg:mr-10;
+}
+
+.mainText p{
+    @apply text-primary-dark text-2xl font-semibold px-5 text-center;
+}
+
+.mainImage{
+    @apply w-[25%] h-72;
+}
+
+.mainImage img{
+    @apply w-full h-full;
+}

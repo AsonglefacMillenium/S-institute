@@ -1,0 +1,11 @@
+.courseHeader{
+    @apply w-full h-fit py-10 bg-primary-grey mb-20;
+}
+
+.courseHeader h1{
+    @apply text-primary-red text-center text-4xl lg:text-6xl font-bold w-11/12 lg:w-3/4 m-auto mb-10 ;
+}
+
+.courseHeader p{
+    @apply text-primary-dark/70 text-center m-auto text-2xl lg:text-3xl font-bold w-11/12 lg:w-3/4;
+}

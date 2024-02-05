@@ -1,0 +1,14 @@
+.sticker{
+    @apply w-fit fixed bottom-10 right-5 flex flex-row z-20;
+}
+
+.stickerApply{
+    @apply w-24 px-3  h-12 mr-0.5 flex flex-row justify-between items-center text-xl rounded-l-3xl font-bold text-white bg-primary-blue;
+}
+
+.stickerdetails{
+    @apply w-12 h-12 mr-0.5 flex flex-row justify-around items-center text-lg  font-bold text-white bg-primary-blue;
+}
+.stickerChat{
+    @apply w-12 h-12 rounded-tr-3xl flex flex-row justify-around items-center text-xl  font-bold text-white bg-primary-blue;
+}

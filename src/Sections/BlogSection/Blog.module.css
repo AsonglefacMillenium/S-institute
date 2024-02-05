@@ -1,0 +1,25 @@
+.blog{
+    @apply w-11/12 lg:w-3/4 py-20 m-auto;
+}
+
+.blogHeading{
+    @apply text-xl text-primary-red font-bold mb-10;
+}
+.onlineHeader{
+    @apply flex lg:flex-row flex-col justify-between w-full;
+}
+
+.onlineHeader h1{
+    @apply text-5xl font-bold mb-10;
+}
+
+.blogWrapper{
+    @apply w-full flex my-20 lg:flex-row flex-wrap justify-center;
+}
+.onlineText{
+    @apply w-full lg:w-1/3;
+}
+
+.onlineText p{
+    @apply mb-10;
+}

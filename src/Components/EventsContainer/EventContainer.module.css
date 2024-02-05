@@ -1,0 +1,26 @@
+.eventContainer{
+    @apply flex flex-col h-fit lg:w-1/3 w-full mr-4 mb-10;
+}
+
+.eventType{
+    @apply w-fit mb-5 bg-primary-dark text-primary-grey text-lg font-bold px-3 text-center;
+}
+
+.eventContainer h1{
+    @apply text-2xl text-primary-red font-bold;
+}
+
+.eventContainer h4{
+    @apply text-primary-dark text-3xl py-2 ;
+}
+
+.eventContainerBody{
+    @apply w-full mt-3 text-lg;
+}
+
+.eventContainerMap{
+    @apply w-full flex flex-row items-center text-primary-dark/70 mt-5;
+}
+.eventContainerMap p{
+    @apply ml-5 ;
+}

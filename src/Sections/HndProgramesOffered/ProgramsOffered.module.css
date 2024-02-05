@@ -1,0 +1,27 @@
+.programsOffered{
+    @appl w-screen py-20 ;
+}
+
+.programsOffered p{
+    @apply text-center text-4xl text-primary-dark/70 font-bold m-auto mb-20 mt-20;
+}
+
+.programesList{
+    @apply w-full flex flex-col lg:flex-row justify-center flex-wrap items-center;
+}
+
+.programBox{
+    @apply mb-10 lg:h-screen w-4/5 h-fit lg:w-2/5 border-2 border-primary-grey rounded-xl mr-5 p-10 flex  flex-col; 
+}
+
+.programBox h1{
+    @apply text-2xl lg:text-2xl text-primary-dark font-bold mb-10;
+}
+
+.programOverview{
+    @apply text-primary-dark/70 mb-5 hover:underline;
+}
+
+.programProper{
+    @apply mb-5 text-primary-red flex items-center flex-row ;
+}

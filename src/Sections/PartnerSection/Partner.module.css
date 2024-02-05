@@ -1,0 +1,18 @@
+.partner{
+    @apply lg:ml-32 ml-10 flex  flex-col my-20;
+}
+
+.partnerHead{
+    @apply w-2/3 ;
+}
+.partnerHead{
+    @apply lg:text-6xl mb-20 font-bold text-primary-dark text-4xl;
+}
+
+.partnerImages{
+    @apply flex flex-row flex-wrap justify-around w-full;
+}
+
+.partnerImages img{
+    @apply w-32 mb-10;
+}

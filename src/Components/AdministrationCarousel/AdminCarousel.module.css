@@ -1,0 +1,31 @@
+.carouselCard{
+    width: 90%;
+    height: fit-content;
+    /* box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.35); */
+    border: 2px solid rgb(119, 111, 111);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.carouselCard img {
+    height: 50%;
+    border-radius: 5px;
+}
+
+.cardTitleName{
+    background-color: white;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.adminCarousel {
+    width: 100%;
+    height: fit-content;
+    padding: 30px;
+}
+
+.swiper {
+    width: 100%;
+    height: 80%;
+    padding: 150px;
+}

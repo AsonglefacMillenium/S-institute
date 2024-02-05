@@ -1,0 +1,15 @@
+.mastersProgram{
+    @apply w-3/4 m-auto my-20 ;
+}
+
+.mastersProgram h1{
+    @apply lg:w-3/4 w-full mb-10 text-3xl lg:text-6xl text-primary-dark font-bold;
+}
+
+.masterdes{
+    @apply lg:w-3/4 w-full mb-20 text-xl lg:text-2xl text-primary-dark ;
+}
+
+.mastersProgramMain{
+    @apply w-full flex justify-around m-auto flex-wrap;
+}

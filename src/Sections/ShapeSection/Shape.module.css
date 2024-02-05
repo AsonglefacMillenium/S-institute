@@ -1,0 +1,11 @@
+.shapeSection{
+    @apply w-full px-10  py-32 flex flex-col justify-center items-center;
+}
+
+.shapeSection h1{
+    @apply lg:text-5xl text-3xl text-primary-red font-bold;
+}
+
+.shapeSection p{
+    @apply lg:w-3/4 text-center lg:text-3xl text-2xl mt-10 leading-10 text-primary-dark/70;
+}

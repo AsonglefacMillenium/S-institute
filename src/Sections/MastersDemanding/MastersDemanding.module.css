@@ -1,0 +1,33 @@
+.mastersDemanding{
+    @apply w-11/12 lg:w-3/4 m-auto my-20;
+}
+
+.mastersDemanding h3{
+    @apply text-xl text-primary-red font-bold mb-10;
+}
+
+.mastersDemanding h1{
+@apply text-4xl lg:text-6xl font-bold text-primary-dark mb-10;
+}
+.mastersDemandingMain{
+    @apply w-full flex flex-col lg:flex-row justify-between mt-10;
+}
+
+.maincontent{
+    @apply  lg:w-3/5 m-auto pr-5 ;
+}
+.maincontent p{
+    @apply  mb-10 text-lg text-primary-dark/70 ;
+}
+.maincontent ul{
+    @apply list-disc mt-10;
+}
+.maincontent ul li{
+    @apply mb-5 font-bold text-lg;
+}
+.maincontent h4{
+    @apply text-xl font-bold mb-10;
+}
+.mainImage{
+    @apply  h-96 lg:w-2/5 w-full;
+}

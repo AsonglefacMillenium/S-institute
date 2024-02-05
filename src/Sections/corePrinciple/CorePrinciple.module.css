@@ -1,0 +1,88 @@
+.corePrinciple{
+    @apply w-screen bg-primary-dark/70 h-fit py-20;
+}
+
+.corePrincipleWrapper{
+    @apply w-3/4 flex flex-col lg:flex-row justify-between text-white m-auto;
+}
+
+.corePrincipleText{
+    @apply lg:w-3/4 mb-10 lg:mb-0 flex-col flex;
+}
+
+.principleTitle{
+    @apply text-primary-red text-xl mb-10 font-bold;
+}
+
+.principleSubHeader{ 
+    @apply lg:text-xl font-bold lg:w-3/4 mb-10;
+}
+.principleBody{
+    @apply lg:w-3/4;
+}
+.principleHeader{
+    @apply text-4xl lg:text-6xl font-semibold mb-10 ;
+}
+
+.corePrincipleImage{
+    @apply lg:w-2/4 lg:self-center;
+}
+
+.principleButton{
+    @apply text-white bg-primary-red w-48 h-20 mt-16 p-0 text-xl rounded-t-3xl rounded-br-3xl;
+}
+
+.corePrincipleDemand{
+    @apply w-full h-fit py-20 bg-primary-grey my-20;
+}
+
+.corePrincipleDemandWrapper{
+    @apply w-11/12 lg:w-10/12 m-auto;
+}
+
+.corePrincipleDemandWrapper h2{
+    @apply text-primary-red text-xl mb-10 font-bold;
+}
+
+.corePrincipleDemandWrapper h1{
+    @apply text-primary-dark text-4xl lg:text-6xl mb-10 font-bold w-10/12;   
+}
+
+.principles {
+    @apply w-full lg:w-2/4 h-fit;
+}
+.principles h3{
+    @apply text-xl lg:text-2xl text-primary-dark font-bold mt-10;
+}
+
+.principles p{
+    @apply text-lg text-primary-dark my-5;
+}
+
+.corePrincipleLearn{
+    @apply w-11/12 lg:w-10/12 h-fit my-20 m-auto;
+}
+
+.corePrincipleLearn h1{
+    @apply text-4xl lg:text-6xl text-primary-dark font-bold mb-10;
+}
+
+.coreLearnMain{
+    @apply w-full flex flex-row flex-wrap justify-between;
+}
+
+.coreLearnText{
+    @apply w-full lg:w-[50%] ;
+}
+
+.coreLearnText p{
+    @apply text-xl;
+}
+
+.coreLearnImage{
+    @apply w-[40%] h-[80vh];
+}
+
+.coreLearnImage img{
+    @apply h-full w-full;
+}

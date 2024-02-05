@@ -1,0 +1,15 @@
+.healthProgrammes{
+    @apply w-3/4 m-auto my-20 ;
+}
+
+.healthProgrammes h1{
+    @apply lg:w-3/4 w-full mb-10 text-3xl lg:text-6xl text-primary-dark font-bold;
+}
+
+.masterdes{
+    @apply lg:w-3/4 w-full mb-20 text-xl lg:text-2xl text-primary-dark ;
+}
+
+.mastersProgramMain{
+    @apply w-full grid grid-cols-1 lg:grid lg:grid-cols-3 lg:gap-2 md:grid md:grid-cols-2 md:gap-2 justify-center m-auto flex-wrap;
+}

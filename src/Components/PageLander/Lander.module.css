@@ -1,0 +1,25 @@
+.lander{
+    @apply w-screen bg-cover bg-center bg-no-repeat h-fit py-20;
+}
+
+.landerWrapper{
+    @apply m-auto w-3/4 mt-10 ;
+}
+
+.landerWrapper a{
+    @apply flex flex-row text-white text-2xl font-bold items-center w-20 justify-between;
+}
+.landerIcon{
+    @apply self-center;
+}
+.landerWrapper a p{
+    @apply self-center mt-0;
+}
+
+.landerWrapper h1{
+    @apply lg:text-5xl text-4xl text-white font-bold mt-10 w-3/4;
+}
+
+.landerWrapper p{
+    @apply text-xl lg:text-2xl mt-10 text-white font-semibold;
+}

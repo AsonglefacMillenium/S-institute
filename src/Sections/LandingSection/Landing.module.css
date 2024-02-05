@@ -1,0 +1,60 @@
+.landing{
+    @apply h-screen w-screen bg-cover  flex flex-col justify-between bg-scroll bg-no-repeat ;
+    font-family: SRHHeadline,sans-serif;
+    
+}
+.landingWrapper{
+    @apply flex flex-col  h-full w-full;
+}
+.landingHeaders{
+    @apply text-white lg:ml-16 ml-16 lg:mt-40 mt-40;
+}
+
+.landingHeaders h1{
+    @apply text-white lg:text-[80px] text-[18px]  font-bold;
+    font-family: SRHHeadline,sans-serif;
+}
+
+.landingHeaders p{
+    @apply text-2xl text-white lg:mb-3 mb-2;
+}
+
+.landingColored{
+    @apply w-full bg-primary-teal h-72 lg:h-60 absolute mt-10 lg:relative lg:top-0 bottom-[-30%];
+}
+
+.landingProgram{
+    @apply  lg:h-32 lg:h-32 py-5 h-96 justify-between  lg:w-11/12 w-3/4 lg:mt-20 lg:top-[72%] left-16  static mt-10 lg:absolute z-10 bottom-20 rounded-t-3xl rounded-br-3xl bg-white m-auto px-10 flex justify-center items-center lg:flex-row flex-col;
+}
+.landingProgram .courses{
+    @apply flex flex-row justify-between lg:w-1/4 w-full text-primary-red text-3xl;
+}
+.coursesHeader h3{
+    @apply text-primary-red;
+}
+.courses{
+    @apply flex flex-col items-center mr-5 justify-center ;
+}
+
+.courses h3{
+    @apply lg:text-4xl text-3xl mb-2 font-bold;
+}
+
+.courses p{
+    @apply lg:text-lg text-sm text-primary-dark/70 font-semibold;
+}
+
+.programLine{
+    @apply lg:h-full lg:w-0.5 h-0.5 w-full bg-primary-grey lg:mr-3 ;
+}
+
+
+@media screen and (min-width: 400px) and (max-width:430px) {
+    .landingColored{
+        @apply bottom-[-15%];
+    }
+
+    .landingProgram{
+        @apply absolute bottom-[-5%];
+    }
+}

@@ -1,0 +1,39 @@
+.mastersAlternative{
+    @apply my-20 w-full lg:pr-20;
+}
+
+.mastersAlternative h3{
+    @apply text-xl text-primary-red font-bold ml-5 lg:text-center  mb-5;
+}
+
+.alternativeMain{
+    @apply w-full flex lg:flex-row flex-col justify-between;
+}
+
+.alternativeMain img{
+    @apply lg:w-2/4 w-11/12 h-96 ;
+}
+
+.alternativeContent{
+    @apply w-11/12 lg:w-3/4 ml-20  lg:mt-0 mt-20 m-auto;
+}
+
+.alternativeContent h1{
+    @apply text-4xl lg:text-6xl font-bold text-primary-dark mb-10;
+}
+
+.alternativeContent p{
+    @apply text-lg text-primary-dark/70 mb-10 w-full lg:w-3/4;
+}
+
+.alternativeContent ul{
+    @apply list-disc mt-10 ;
+}
+
+.alternativeContent ul li{
+    @apply text-lg font-semibold lg:ml-10 mb-5 ml-5;
+}
+
+.alternativeContent ul li a{
+    @apply underline;
+}

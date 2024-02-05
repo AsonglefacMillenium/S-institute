@@ -1,0 +1,31 @@
+.BlogCard {
+    @apply w-80  mr-2 h-[65vh] bg-primary-grey shadow-md rounded-2xl mb-10;
+}
+
+.blogImage{
+    @apply h-2/4 w-full rounded-t-2xl;
+}
+
+.blogImage img{
+    @apply h-full w-full rounded-t-2xl;
+}
+
+.blogContent{
+    @apply flex flex-col px-5;
+}
+
+.blogDate{
+    @apply text-sm self-end my-3 text-primary-red;
+}
+
+.blogTitle{
+    @apply text-xl lg:text-2xl  text-primary-dark font-bold;
+}
+
+.blogDescription{
+    @apply text-primary-dark my-2;
+}
+
+.blogButton{
+    @apply self-end text-xl text-primary-red hover:text-primary-dark border-none;
+}

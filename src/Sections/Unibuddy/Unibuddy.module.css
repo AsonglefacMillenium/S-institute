@@ -1,0 +1,22 @@
+.unibuddy{
+    @apply w-screen h-screen bg-cover bg-no-repeat my-20 ;
+}
+
+.unibuddyWrapper{
+    @apply m-auto w-3/4 flex flex-col justify-center h-full items-start;
+}
+
+.unibuddyWrapper h3{
+    @apply text-white uppercase text-white text-xl font-bold mb-5 lg:mb-10;
+}
+
+.unibuddyWrapper h1{
+    @apply text-5xl  text-white font-bold mb-5 lg:mb-10;
+}
+
+.unibuddyWrapper p{
+    @apply text-white lg:w-2/4 my-5 lg:my-10;
+}
+.unibuddyButton{
+    @apply text-white bg-primary-red w-48 h-20  p-0 text-xl rounded-t-3xl rounded-br-3xl;
+}

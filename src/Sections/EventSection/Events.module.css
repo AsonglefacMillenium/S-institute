@@ -1,0 +1,75 @@
+.events{
+    @apply w-screen bg-primary-grey py-20;
+}
+
+.onlineEvents{
+    @apply w-3/4 m-auto mb-20;
+}
+
+.onlineEvents h3{
+    @apply text-xl text-primary-red font-bold mb-10;
+}
+
+.onlineHeader{
+    @apply flex lg:flex-row flex-col justify-between w-full;
+}
+
+.onlineHeader h1{
+    @apply text-5xl font-bold mb-10;
+}
+
+.onlineText{
+    @apply w-full lg:w-1/3;
+}
+
+.onlineText p{
+    @apply mb-10;
+}
+
+
+.onsiteEvents{
+    @apply w-3/4 m-auto;
+}
+
+.onsiteEvents h3{
+    @apply text-xl text-primary-red font-bold mb-10;
+}
+
+.onsiteHeader{
+    @apply flex lg:flex-row flex-col justify-between w-full;
+}
+
+.onsiteHeader h1{
+    @apply text-5xl font-bold mb-10;
+}
+
+.onsiteText{
+    @apply w-full lg:w-1/3;
+}
+
+.onsiteText p{
+    @apply mb-10;
+}
+
+.eventsMain{
+    @apply flex lg:flex-row flex-col justify-between w-full mt-20;
+}
+
+.moreEvents{
+    @apply text-xl text-primary-red font-bold text-center flex justify-center mt-20;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.moreEventsPage {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
